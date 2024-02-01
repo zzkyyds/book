@@ -52,7 +52,8 @@ from a supertype
 &emsp;&emsp;你就会立即意识到哪里错了，拍拍自己的额头，马上用正确的来取代出错的 equals 实现（第 10 项）：
 
 ```java
-@Override public boolean equals(Object o) {
+@Override 
+public boolean equals(Object o) {
     if (!(o instanceof Bigram))
         return false;
     Bigram b = (Bigram) o;

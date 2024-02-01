@@ -128,7 +128,7 @@ for (int start = 0; start < src.size(); start++)
 public static <E> Stream<List<E>> of(List<E> list) {
     return IntStream.range(0, list.size())
         .mapToObj(start -> IntStream.rangeClosed(start + 1, list.size())
-        .mapToObj(end -> list.subList(start, end)))
+            .mapToObj(end -> list.subList(start, end)))
         .flatMap(x -> x);
 }
 ```
