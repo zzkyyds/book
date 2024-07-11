@@ -1,6 +1,10 @@
 交互问题:
 https://gaia.cs.umass.edu/kurose_ross/interactive/
 
+书籍课后资源:
+https://github.com/HanochShi/Supplements-ComputerNetworking-ATopDownApproach-7th-ed
+https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES
+
 习题答案:
 (备注:答案存在错误)
 https://feater.top/book/compute-network-top-down-mothed-answer/
