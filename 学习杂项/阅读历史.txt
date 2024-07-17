@@ -1,0 +1,138 @@
+1.bloom filter：redis
+
+2.Redis 缓存击穿、缓存穿透、缓存雪崩：
+https://mp.weixin.qq.com/s/PZWe5x9cOqrhVCSxOBdVNA
+https://blog.csdn.net/keep_learn/article/details/106761101
+
+3.服务降级和服务熔断：https://zhuanlan.zhihu.com/p/419102097
+
+4.jvm内存泄露和排查，jvm工具：
+https://juejin.cn/post/7006229454523482126
+https://zhuanlan.zhihu.com/p/368830445
+https://www.cnblogs.com/duanxz/p/4515437.html
+https://juejin.cn/post/6854573218968109070
+
+5.4种引用（强，软，虚，弱）：
+https://www.jianshu.com/p/964fbc30151a
+https://www.cnblogs.com/gudi/p/6403953.html
+
+5.缓存一致性：
+https://cloud.tencent.com/developer/article/1932934
+https://zhuanlan.zhihu.com/p/408515044
+
+6.java字节码，反编译：
+https://blog.csdn.net/reliveit/article/details/51163403
+https://blog.csdn.net/kq1983/article/details/113406715
+https://blog.csdn.net/Xin_101/article/details/126282130
+https://juejin.cn/post/7059649880276336648
+https://zhuanlan.zhihu.com/p/412472914 （附带javap反编译后的助记指令集）
+https://tech.meituan.com/2019/09/05/java-bytecode-enhancement.html
+https://blog.csdn.net/yin__ren/article/details/116007082
+https://blog.csdn.net/zuozewei/article/details/120928988
+
+7.java unsafe类：
+https://www.cnblogs.com/throwable/p/9139947.html#staticfieldbase
+https://www.zhihu.com/question/51132462
+
+8.双亲委派机制的优点和缺点：
+https://zhuanlan.zhihu.com/p/651047427
+https://juejin.cn/post/7294852698460340236
+https://www.jianshu.com/p/5842633972ef
+
+9.sql优化：
+mysql中文文档https://mysql.net.cn/doc/refman/5.7/en/manual-info.html
+https://zhuanlan.zhihu.com/p/88139202
+https://blog.csdn.net/kaoya156/article/details/120361212
+https://blog.csdn.net/sy_white/article/details/122112440
+https://developer.aliyun.com/article/953071
+https://blog.csdn.net/qq_34115899/article/details/120727513
+https://blog.csdn.net/helloxiaozhe/article/details/78106709
+https://zhuanlan.zhihu.com/p/281517471
+https://zhuanlan.zhihu.com/p/103661924
+https://blog.csdn.net/u010841296/article/details/89790399
+
+10.doris和olap(Online AnalyticalProcessing,在线分析处理)：
+https://zhuanlan.zhihu.com/p/448265353
+https://segmentfault.com/a/1190000040428093
+https://zhuanlan.zhihu.com/p/588344733
+https://blog.csdn.net/JunLeon/article/details/121051075
+https://zhuanlan.zhihu.com/p/426919326
+https://zhuanlan.zhihu.com/p/79320135
+http://www.cs.umd.edu/~abadi/papers/abadi-sigmod08.pdf
+https://zhuanlan.zhihu.com/p/54433448
+https://www.jianshu.com/p/fd41f907c041
+https://cloud.tencent.com/developer/article/2170759
+
+11.java静态代理和动态代理：
+https://zhuanlan.zhihu.com/p/347141071
+https://blog.csdn.net/zhuoxiuwu/article/details/78619645
+
+12.concurrent hash map：
+jdk1.8 concurrent hash map 源码
+https://www.cnblogs.com/zerotomax/p/8687425.html
+https://blog.csdn.net/qq_29051413/article/details/107869427
+
+13.instanceof关键字：
+https://www.zhihu.com/question/21574535/answer/18998914
+
+14.抽象泄露：
+https://baike.baidu.com/item/抽象泄漏/22983571
+https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
+
+15.java垃圾回收(gc)，jvm调优：
+https://www.zhihu.com/question/35164211
+https://zhuanlan.zhihu.com/p/364813270
+https://tech.meituan.com/2020/08/06/new-zgc-practice-in-meituan.html
+https://zhuanlan.zhihu.com/p/43608166
+https://developer.aliyun.com/article/1322792
+https://zhuanlan.zhihu.com/p/488615913
+https://blog.csdn.net/hellozhxy/article/details/80559419
+https://medium.com/software-under-the-hood/under-the-hood-java-peak-safepoints-dd45af07d766
+
+16.算法
+双轴快排：https://zhuanlan.zhihu.com/p/374041792
+timsort：https://zhuanlan.zhihu.com/p/515987418
+timsort：https://juejin.cn/post/6935340555174051853   （备注：timsort的栈的大小与斐波那契数列和数组最大长度有关）
+区间最值查询（rmq）：https://blog.csdn.net/qq_41311604/article/details/79900893
+后缀数组：https://zhuanlan.zhihu.com/p/659094613      https://blog.csdn.net/yxuanwkeith/article/details/50636898
+后缀自动机：https://zhuanlan.zhihu.com/p/410131141   https://oi-wiki.org/string/sam/
+kmp：https://oi-wiki.org/string/z-func/   https://oi-wiki.org/string/kmp/
+双数组前缀树(DAT):  https://blog.csdn.net/i_love_zxy/article/details/103547251      https://www.cnblogs.com/ooon/p/4883159.html    https://github.com/komiya-atsushi/darts-java
+
+17.堆外内存，nio：
+https://juejin.cn/post/7132171543651549220
+
+18.虚拟线程&协程：
+https://juejin.cn/post/7280746515526058038
+https://openjdk.org/jeps/444
+https://www.zhihu.com/question/332042250
+
+19.java安全策略：
+https://www.cnblogs.com/yiwangzhibujian/p/6207212.html
+
+20.jmx（Java Management Extensions）：
+一种用于管理和监控 Java 应用程序的标准 AP
+https://zhuanlan.zhihu.com/p/166530442
+
+21.java动态执行，ScriptEngine：
+https://blog.csdn.net/hangvane123/article/details/84945180
+
+22.伪共享（false sharing）：
+https://blog.csdn.net/Shockang/article/details/116724436
+https://jenkov.com/tutorials/java-concurrency/false-sharing.html
+
+23.锁
+https://zhuanlan.zhihu.com/p/86846772
+https://blog.csdn.net/qq_26222859/article/details/80546917
+https://blog.csdn.net/Shockang/article/details/117676495
+
+24.架构：
+缓存读写：https://juejin.cn/post/6964531365643550751   https://zhuanlan.zhihu.com/p/351522318   https://zhuanlan.zhihu.com/p/140050074
+数据迁移：https://zhuanlan.zhihu.com/p/350371119
+
+25.jpa
+https://blog.csdn.net/cauchy6317/article/details/100924045
+
+26.mysql详细解析：
+https://www.cnblogs.com/better-farther-world2099/articles/14768929.html
+https://zhuanlan.zhihu.com/p/100009790
