@@ -104,3 +104,7 @@ javassist:
 
 nginx:
 https://www.cnblogs.com/biglittleant/p/8979852.html
+
+
+
+一致性哈希环
