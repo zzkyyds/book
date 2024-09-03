@@ -1,0 +1,17 @@
+交互问题:
+https://gaia.cs.umass.edu/kurose_ross/interactive/
+
+书籍课后资源:
+https://github.com/HanochShi/Supplements-ComputerNetworking-ATopDownApproach-7th-ed
+https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES
+
+习题答案:
+(备注:答案存在错误)
+https://feater.top/book/compute-network-top-down-mothed-answer/
+https://github.com/XieYSheng/exercises_answers/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/chinese/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E8%87%AA%E9%A1%B6%E5%90%91%E4%B8%8B%E8%AF%BE%E5%90%8E%E7%AD%94%E6%A1%88.md
+https://github.com/YangXiaoHei/Networking
+
+
+rfc中文翻译:
+https://rfc2cn.com/
+对应的网站代码 https://gitee.com/twhhu/rfc-translater-zh-cn
