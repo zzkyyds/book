@@ -20,7 +20,7 @@ https://blog.csdn.net/weixin_51773993/article/details/129751457
 Servlet的生命周期
 创建Servlet实例有两个时机：
 客户端第一次请求某个Servlet时，系统创建该Servlet的实例，大部分Servlet都是这种Servlet；
-web应用启动时立即创建Servlet实例，即<load-on-start>1</laod-on-start>
+web应用启动时立即创建Servlet实例，即<load-on-start>1</laod-on-start>,这个控制加载顺序,(非负,否则lazy加载)
 
 3.web.xml 元素
 webAppRootKey:配置在同一个容器中的多个web项目，要配置不同的webAppRootKey，web.xml文件中最好定义webAppRootKey参数，如果不定义，将会缺省为“webapp.root”，为防止log4j配置冲突，每个项目配置不同的webAppRootKey。
@@ -29,6 +29,7 @@ webAppRootKey:配置在同一个容器中的多个web项目，要配置不同的
 
 4.listener
 https://blog.csdn.net/qq_51938362/article/details/125744243
+https://yuzhiqiang.blog.csdn.net/article/details/81324953
 监听器可以监听在application，Session，Request三个对象创建、销毁或者往其中添加修改删除属性时自动执行代码的功能组件。
 已有的listener:ServletContext监听(2个),Session监听(4个),Request监听(2个)
 (session钝化活化)
@@ -40,6 +41,13 @@ https://blog.csdn.net/yuzhiqiang_1993/article/details/81288912
 通常都是用来拦截request进行处理的，也可以对返回的response进行拦截处理
 职责链,doFilter
 过滤器是在服务器启动时就会创建的，只会创建一个实例
+
+应用:自动登录,统一设置编码格式,访问权限控制,敏感字符过滤等
+
+
+6.servlet
+https://www.runoob.com/servlet/servlet-tutorial.html
+
 
 
 

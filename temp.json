@@ -1,0 +1,23 @@
+{
+    "database": "TESTING",
+    "tableName": "b_base_data_to_answer_group",
+    "action": "U",
+    "data": {
+        "name": "engine_data_update",
+        "id": "9be6ebc0-e60b-47fc-b456-4e66991f73b1",
+        "op": "U",
+        "data": {
+            "database": "TESTING",
+            "data": {
+                "id": 8381517
+            },
+            "action": "U",
+            "time": 1725452106999,
+            "table": "g_enforcement_item"
+        },
+        "ts": 1725452106999,
+        "p": {
+            "e": "test_engine_load"
+        }
+    }
+}

@@ -1,0 +1,83 @@
+1.jpa事务
+acid==>原子性(Atomicity)、一致性(Consistency)、隔离性(Isolation)、持久性(Durability)
+
+https://www.cnblogs.com/zouhong/p/14132568.html
+https://blog.csdn.net/footless_bird/article/details/129294444
+https://blog.csdn.net/jiahao1186/article/details/90604813
+
+EntityManager是JPA中用于增删改查的接口，它的作用相当于一座桥梁，连接内存中的java对象和数据库的数据存储。
+PersistenceContext
+被EntityManager持久化到数据库中的对象，或者从数据库拉入内存中的对象，也会同时被一个持久化上下文（PersistenceContext）管理。可以一个持久化上下文对应多个EntityManager。
+
+entity的状态转换:详细见csdn 129294444的那个
+临时态(刚new的)
+托管态
+持久态
+游离态
+销毁态
+
+flush:
+将实体的改变立刻刷新到数据库中
+clear:
+分离所有当前正在被管理的实体
+清除持久上下文环境，断开所有关联的实体。如果这时还有未提交的更新则会被撤消。
+在处理大量实体的时候，如果你不把已经处理过的实体从EntityManager中分离出来，将会消耗你大量的内存。
+调用EntityManager 的clear()方法后，所有正在被管理的实体将会从持久化内容中分离出来。
+有一点需要说明下，在事务没有提交前（事务默认在调用堆栈的最后提交，如：方法的返回），如果调用clear()方法，之前对实体所作的任何改变将会丢失，所以建议在调用clear()方法之前先调用flush()方法保存更改。
+refresh:
+如果怀疑当前被管理的实体已经不是数据库中最新的数据，则可以通过 refresh() 方法刷新实体，容器会把数据库中的新值重写进实体。
+
+事务:
+getTransaction()
+begin
+commit
+rollback
+setRollbackOnly
+getRollbackOnly 
+
+事务传播:
+csdn 90604813那个
+int PROPAGATION_REQUIRED = 0:
+支持当前事务，如果当前没有事务，就新建一个事务。Spring默认事务级别。
+
+int PROPAGATION_SUPPORTS = 1:
+支持当前事务，如果当前没有事务，就以非事务方式执行。
+
+int PROPAGATION_MANDATORY = 2:
+支持当前事务，如果当前没有事务，就抛出异常。
+
+int PROPAGATION_REQUIRES_NEW = 3:
+新建事务，如果当前存在事务，把当前事务挂起。执行新事务后，再激活当前事务。
+
+int PROPAGATION_NOT_SUPPORTED = 4:
+以非事务方式执行操作，如果当前存在事务，就把当前事务挂起。
+
+int PROPAGATION_NEVER = 5:
+以非事务方式执行，如果当前存在事务，则抛出异常。
+
+int PROPAGATION_NESTED = 6:
+如果当前存在事务，则在嵌套事务内执行。如果当前没有事务，则进行与PROPAGATION_REQUIRED类似的操作。
+嵌套时由外部事务决定，子事务是否是commit还是rollback。
+一般在外部事务是使用try{}catch(嵌套事务方法){}进行编码。
+
+
+
+多线程情况下的事务:
+https://blog.csdn.net/a3562323/article/details/130687846
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
