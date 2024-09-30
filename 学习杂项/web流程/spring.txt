@@ -23,6 +23,7 @@ bean的生命流程 todo
 
 3.bean的生命流程
 https://blog.csdn.net/riemann_/article/details/118500805
+https://juejin.cn/post/6966158157202587662
 实例化
 属性赋值
 初始化
@@ -43,6 +44,14 @@ https://juejin.cn/post/6966158157202587662
 
 
 
+6.请求总流程
+https://cloud.tencent.com/developer/article/1649425
+https://www.cnblogs.com/54chensongxia/p/12525418.html
+https://qchery.github.io/2019/10/21/SpringMVC%E8%AF%B7%E6%B1%82%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B/
+
+
+7.过滤器与拦截器
+https://www.cnblogs.com/kuotian/p/13176186.html
 
 
 
