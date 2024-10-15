@@ -1,2 +1,7 @@
 1.枚举
 https://www.cnblogs.com/echo1937/p/14067076.html
+
+2.n+1查询问题
+https://www.cnblogs.com/lukelook/p/11186768.html
+https://blog.csdn.net/allway2/article/details/127652396
+https://blog.csdn.net/jingde528/article/details/141060084

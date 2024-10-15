@@ -92,7 +92,7 @@ java网站:
 https://pdai.tech/md/java/io/java-io-nio.html
 
 用户态和内核态：
-https://zhuanlan.zhihu.com/p/592581594（需要重新阅读）
+https://zhuanlan.zhihu.com/p/592581594
 https://www.cnblogs.com/sparkdev/p/8410350.html
 
 cglib:
@@ -120,6 +120,12 @@ https://www.cnblogs.com/buchizicai/p/17093719.html
 
 mysql数据恢复:
 https://blog.51cto.com/u_16099244/10235103
+
+mysql主从部署:
+https://cloud.tencent.com/developer/article/2241142
+
+mysql dump:
+https://www.cnblogs.com/chenmh/p/5300370.html
 
 
 tomcat:
