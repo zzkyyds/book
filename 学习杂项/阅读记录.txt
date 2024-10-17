@@ -91,6 +91,9 @@ https://www.zhihu.com/question/269505829
 java网站:
 https://pdai.tech/md/java/io/java-io-nio.html
 
+源码阅读技巧:
+https://blog.csdn.net/weixin_42762133/article/details/104908894
+
 用户态和内核态：
 https://zhuanlan.zhihu.com/p/592581594
 https://www.cnblogs.com/sparkdev/p/8410350.html
